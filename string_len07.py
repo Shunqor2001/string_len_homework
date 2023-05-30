@@ -8,4 +8,11 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    if len(s1)%2==1:
+        return "s1"
+    if len(s2)%2==1:
+        return"s2"
+    if len(s3)%2==1:
+        return "s3"
+    
+print(main())
